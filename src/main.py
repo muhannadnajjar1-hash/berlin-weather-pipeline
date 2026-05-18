@@ -5,7 +5,6 @@ from load import save_csv, save_parquet, save_to_sqlite
 from transform import transform_weather_data
 from validate import validate_weather_data
 
-
 CONFIG_PATH = "config/config.yaml"
 
 

@@ -2,7 +2,6 @@ import logging
 
 import pandas as pd
 
-
 REQUIRED_COLUMNS = {
     "timestamp",
     "temperature_2m",
