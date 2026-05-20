@@ -223,3 +223,4 @@ data/
 .cache.sqlite
 data/processed/
 data/.DS_Store
+anaconda_projects/
