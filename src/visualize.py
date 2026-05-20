@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def create_temperature_trend_chart(
-    input_path: str = "data/processed/weather_hourly.csv",
+    input_path: str = "data/processed/weather_2025_historical.csv",
     output_path: str = "reports/weather_temperature_trend.png",
 ) -> None:
     df = pd.read_csv(input_path)
