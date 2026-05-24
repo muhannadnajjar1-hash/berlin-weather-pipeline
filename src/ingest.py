@@ -31,6 +31,8 @@ def fetch_weather_data(api_config: dict) -> dict:
         "latitude": api_config["latitude"],
         "longitude": api_config["longitude"],
         "timezone": api_config["timezone"],
+        "start_date": api_config["start_date"],
+        "end_date": api_config["end_date"],
         "hourly": ",".join(api_config["hourly_variables"]),
     }
 
