@@ -150,7 +150,7 @@ activemq-data/
 # Environments
 .env
 .envrc
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -216,11 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific local files
 data/
-.DS_Store
-.idea/
-.DS_Store
-.cache.sqlite
-data/processed/
-data/.DS_Store
 anaconda_projects/
+.cache.sqlite
+
+# macOS
+.DS_Store
+
+# IDE/editor files
+.idea/
+.vscode/
